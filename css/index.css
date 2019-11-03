@@ -65,10 +65,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* css reset above, my code below */
+
+
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.top-content img {
+    padding-bottom: 25px;
 }
 
 .top-content {
@@ -90,6 +117,8 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -104,8 +133,118 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.middle-content .boxes .one {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .two {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(255, 230, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .three {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(94, 141, 135);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .four {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(233, 117, 81);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .five {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(226, 19, 70);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .six {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .seven {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(136, 47, 158);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .eight {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .nine {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(44, 0, 73);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .ten {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: rgb(0, 153, 255);
     color: white;
     display: flex;
     align-items: center;
